@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(251, 255, 0);
+}
+.main {
+  word-spacing: 10px;
+  line-height: 26.5px;
+  width: 60vw;
+  font-size: 2.24vw;
+  background-color: rgb(255, 255, 0);
+  font-family: monospace;
+  border: 3px solid rgb(0, 0, 0);
+  border-style: double;
+  display: inline-block;
+}
+.author {
+  background-color: #ffee00;
+  height: 45vh;
+  width: 34vw;
+  border: 3px solid;
+  border-style: double;
+  overflow: hidden;
+  float: right;
+}
+img {
+  border: 8px solid rgb(0, 0, 0);
+  border-top-style: double;
+  border-bottom-style: double;
+  border-radius: 500px;
+  position: relative;
+  left: 162px;
+  right: 50px;
+  margin-top: 19px;
+  height: 19vh;
+}
+.name {
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 600px) {
+  .name {
+    font-size: 39px;
+  }
+}
