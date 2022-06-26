@@ -1,0 +1,25 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("image.avif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: #81b92796;
+  font-size: 52px;
+  font-family: monospace;
+  text-decoration: underline;
+  user-select: text;
+}
+.name::selection {
+  color: #80ff00;
+}

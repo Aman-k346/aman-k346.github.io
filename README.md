@@ -8,3 +8,4 @@
  - [command line interface](https://github.com/Aman-k346/Websites/tree/master/command_line_interface)
  - [Form](https://github.com/Aman-k346/Websites/tree/master/form)
  - [Prallax effect](https://github.com/Aman-k346/aman-k346.github.io/tree/main/parallax-site)
+ - [full screen landing page](https://github.com/Aman-k346/aman-k346.github.io/tree/main/fullscreenlandingpage)
