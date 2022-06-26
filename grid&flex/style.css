@@ -1,0 +1,53 @@
+body {
+  background-image: -moz-linear-gradient(yellow,red);
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.hw {
+  padding-bottom: 700px;
+}
+
+.grid-container {
+  display: grid;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(229, 255, 0);
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.footer {
+  background-color: rgb(255, 174, 0);
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  list-style-type: none;
+  margin-left: 45px;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  transition: all 0.2s;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 3px;
+  border: 2px solid;
+  box-shadow: 5px 10px;
+}
+.name {
+  text-transform: capitalize;
+  position: absolute;
+  left: 40vw;
+  top: 50vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-size: 29px;
+}
