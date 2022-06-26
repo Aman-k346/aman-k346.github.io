@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  width: 100vw;
+}
+#first {
+  background-color: aqua;
+}
+#second {
+  position: sticky;
+  background-color: blueviolet;
+}
+.parallax{
+    background-image:radial-gradient(red,green);
+    background-attachment: fixed;
+}
