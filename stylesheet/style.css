@@ -1,5 +1,5 @@
 body {
-  background-image: -moz-linear-gradient(yellow, red);
+  background-image: linear-gradient(yellow, red);
   background-attachment: fixed;
 }
 * {
