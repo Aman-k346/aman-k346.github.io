@@ -1,0 +1,99 @@
+body {
+  background-image: -moz-linear-gradient(yellow, red);
+  background-attachment: fixed;
+}
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: rgb(255, 255, 255);
+  color: goldenrod;
+}
+.hw {
+  padding-bottom: 700px;
+}
+
+.grid-container {
+  display: grid;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(229, 255, 0);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 80px;
+  box-sizing: border-box;
+  padding-bottom: 29px;
+  box-shadow: 6px 16px rgb(0, 0, 0);
+}
+.footer {
+  background-color: rgb(255, 174, 0);
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  list-style-type: none;
+  margin-left: 45px;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  transition: all 0.2s;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: rgb(255, 131, 131);
+  padding: 3px;
+  border: 2px solid;
+  box-shadow: 5px 10px;
+}
+.name {
+  text-transform: capitalize;
+  position: absolute;
+  left: 40vw;
+  top: 50vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-size: 29px;
+}
+.preview {
+  height: 180px;
+}
+.frame {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+.card {
+  margin-top: 41px;
+  margin-left: 104px;
+  border-radius: 8px;
+  padding: 9px;
+  display: inline-block;
+  background-color: rgb(255, 187, 0);
+  box-shadow:19px 14px rgba(0, 0, 0, 0.44);
+  transition: all 0.2s;
+}
+.view-all a {
+  color: rgb(255, 0, 0);
+}
+.title {
+  margin-bottom: 6px;
+  font-weight: bolder;
+}
+.view-all a:hover {
+  color: rgb(6, 6, 6);
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card:hover {
+  box-shadow: 6px 10px rgb(0, 0, 0);
+  cursor: pointer;
+}
