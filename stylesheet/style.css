@@ -1,29 +1,71 @@
+body {
+  background-image: -moz-linear-gradient(yellow, red);
+  background-attachment: fixed;
+}
 * {
-  color: rgb(255, 196, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular";
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: rgb(0, 0, 0);
+*::selection {
+  background-color: rgb(255, 255, 255);
+  color: goldenrod;
 }
-.name {
-  color: #00ff10;
-  margin-top: 40vh;
-  text-align: center;
+.hw {
+  padding-bottom: 700px;
+}
+
+.grid-container {
+  display: grid;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(229, 255, 0);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 80px;
+  box-sizing: border-box;
+  padding-bottom: 29px;
+  box-shadow: 6px 16px rgb(0, 0, 0);
+}
+.footer {
+  background-color: rgb(255, 174, 0);
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  list-style-type: none;
+  margin-left: 45px;
   text-transform: capitalize;
-  font-family: sans-serif;
-  letter-spacing: 7px;
-  text-shadow: 4px 3px 0px rgb(44, 88, 44);
-  font-size: 36px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  transition: all 0.2s;
 }
-.name::selection {
-  background-color: darkgray;
+.item:hover {
+  cursor: pointer;
+  background-color: rgb(255, 131, 131);
+  padding: 3px;
+  border: 2px solid;
+  box-shadow: 5px 10px;
 }
-.projects{
-    color: rgb(0, 238, 255);
-    text-transform: capitalize;
-    border: 5px solid red;
-    display: inline-block;
-    padding: 9px;
-    border-radius: 6px;
+.title {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 40vh;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-decoration: underline double;
+  color: yellow;
+}
+.title::selection {
+  color: yellow;
+  background-color: red;
+}
+a {
+  color: black;
+  text-decoration: none;
 }

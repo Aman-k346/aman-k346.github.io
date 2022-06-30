@@ -29,6 +29,7 @@ body {
   box-sizing: border-box;
   padding-bottom: 29px;
   box-shadow: 6px 16px rgb(0, 0, 0);
+  margin-bottom: 60px;
 }
 .footer {
   background-color: rgb(255, 174, 0);
@@ -69,13 +70,12 @@ body {
   overflow: hidden;
 }
 .card {
-  margin-top: 41px;
   margin-left: 104px;
   border-radius: 8px;
   padding: 9px;
   display: inline-block;
-  background-color: rgb(255, 187, 0);
-  box-shadow:19px 14px rgba(0, 0, 0, 0.44);
+  background-color: #ffbb00;
+  box-shadow: 19px 14px rgba(0, 0, 0, 0.44);
   transition: all 0.2s;
 }
 .view-all a {
